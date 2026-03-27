@@ -2,11 +2,9 @@ name: SonarCloud Scan (Altroj)
 
 on:
   push:
-    branches:
-      - Altoroj-3.2
+    branches: [ "AltoroJ-3.2" ]
   pull_request:
-    branches:
-      - Altoroj-3.2
+    branches: [ "AltoroJ-3.2" ]
   workflow_dispatch:
 
 permissions:
