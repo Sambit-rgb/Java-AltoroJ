@@ -2,9 +2,9 @@ name: Multi-Module Smart Sonar Scan
 
 on:
   push:
-    branches: [ "master", "main","Altroj-3.2" ]
+    branches: [ "Altroj-3.2" ]
   pull_request:
-    branches: [ "master", "main","Altroj-3.2" ]
+    branches: [ "Altroj-3.2" ]
   workflow_dispatch:
 
 permissions:
